@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="OoTeWe.in" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/OoTeWe" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/OoTeWe" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="BST/Header/pendaftaranBST.h" />
+		<Unit filename="BST/Implementation/pendaftaranBST_103012530025_anggota1.cpp" />
+		<Unit filename="BST/Implementation/pendaftaranBST_103012530078_anggota2.cpp" />
+		<Unit filename="Bonus/Header/bonus.h" />
+		<Unit filename="Bonus/Implementation/bonus.cpp" />
+		<Unit filename="Khusus/Header/khusus.h" />
+		<Unit filename="Khusus/Implementation/khusus.cpp" />
+		<Unit filename="MLL-01/Header/Destinasi.h" />
+		<Unit filename="MLL-01/Header/Paket.h" />
+		<Unit filename="MLL-01/Header/Penyelenggara.h" />
+		<Unit filename="MLL-01/Implementation/Destinasi/Destinasi_103012530025_anggota1.cpp" />
+		<Unit filename="MLL-01/Implementation/Destinasi/Destinasi_103012530078_anggota2.cpp" />
+		<Unit filename="MLL-01/Implementation/Paket/Paket_103012530025_anggota1.cpp" />
+		<Unit filename="MLL-01/Implementation/Paket/Paket_103012530078_anggota2.cpp" />
+		<Unit filename="MLL-01/Implementation/Penyelenggara/Penyelenggara_103012530025_anggota1.cpp" />
+		<Unit filename="MLL-01/Implementation/Penyelenggara/Penyelenggara_103012530078_anggota2.cpp" />
+		<Unit filename="dummy.cpp" />
+		<Unit filename="dummy.h" />
+		<Unit filename="interface.cpp" />
+		<Unit filename="interface.h" />
+		<Unit filename="main.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
