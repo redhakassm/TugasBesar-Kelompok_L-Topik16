@@ -128,3 +128,4 @@ int getTreeHeight(adrBST root) {
     int kanan = getTreeHeight(root->right);
     return (kiri > kanan ? kiri : kanan) + 1;
 }
+
